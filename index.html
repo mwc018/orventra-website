@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orventra — Custom Software Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="logo">Orventra</a>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="btn btn-sm">Get in touch</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="badge">Custom Software Development</div>
+      <h1>Software built<br /><span class="gradient-text">exactly for you</span></h1>
+      <p class="hero-sub">
+        Orventra designs and engineers tailor-made software solutions that fit your
+        business like a glove — not the other way around.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Start a project</a>
+        <a href="#services" class="btn btn-ghost">See what we do</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">50+</span>
+          <span class="stat-label">Projects delivered</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Custom built</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">5★</span>
+          <span class="stat-label">Client satisfaction</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">What we build</div>
+        <h2>End-to-end software<br />for every challenge</h2>
+        <p>From idea to deployment — we handle every layer of your software stack.</p>
+      </div>
+      <div class="cards-grid">
+
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+          </div>
+          <h3>Web Applications</h3>
+          <p>Scalable, performant web apps built with modern frameworks — designed to grow alongside your business.</p>
+          <ul class="card-tags">
+            <li>React / Next.js</li><li>Node.js</li><li>APIs</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18" stroke-linecap="round" stroke-width="2.5"/></svg>
+          </div>
+          <h3>Mobile Apps</h3>
+          <p>Native-quality mobile experiences for iOS and Android, built with cross-platform efficiency.</p>
+          <ul class="card-tags">
+            <li>React Native</li><li>iOS</li><li>Android</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.657 3.582 3 8 3s8-1.343 8-3V6"/><path d="M4 12v6c0 1.657 3.582 3 8 3s8-1.343 8-3v-6"/></svg>
+          </div>
+          <h3>Backend & APIs</h3>
+          <p>Robust, secure server infrastructure and APIs that power your products at any scale.</p>
+          <ul class="card-tags">
+            <li>Cloud</li><li>Microservices</li><li>REST / GraphQL</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>System Integrations</h3>
+          <p>Connect your existing tools, platforms, and data sources into one seamless, unified workflow.</p>
+          <ul class="card-tags">
+            <li>ERP / CRM</li><li>Third-party APIs</li><li>Automation</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+          </div>
+          <h3>AI & Automation</h3>
+          <p>Leverage AI to automate repetitive tasks, surface insights, and give your business a competitive edge.</p>
+          <ul class="card-tags">
+            <li>LLM Integration</li><li>ML Pipelines</li><li>Workflows</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Consulting & Strategy</h3>
+          <p>Not sure where to start? We help you define the right architecture and technology roadmap from day one.</p>
+          <ul class="card-tags">
+            <li>Architecture</li><li>Tech Audits</li><li>Roadmapping</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section section-dark" id="process">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge badge-dark">How we work</div>
+        <h2>A clear process,<br />start to finish</h2>
+        <p>No black boxes. You're involved at every stage so the result matches your vision.</p>
+      </div>
+      <div class="process-steps">
+
+        <div class="step">
+          <div class="step-num">01</div>
+          <div class="step-content">
+            <h3>Discovery</h3>
+            <p>We start by deeply understanding your business, goals, and technical landscape before writing a single line of code.</p>
+          </div>
+        </div>
+
+        <div class="step-connector"></div>
+
+        <div class="step">
+          <div class="step-num">02</div>
+          <div class="step-content">
+            <h3>Design & Planning</h3>
+            <p>We design the architecture and UI, define scope, and give you a clear roadmap with milestones and timelines.</p>
+          </div>
+        </div>
+
+        <div class="step-connector"></div>
+
+        <div class="step">
+          <div class="step-num">03</div>
+          <div class="step-content">
+            <h3>Build</h3>
+            <p>Iterative, agile development with regular demos so you can see progress and give feedback at every step along the way.</p>
+          </div>
+        </div>
+
+        <div class="step-connector"></div>
+
+        <div class="step">
+          <div class="step-num">04</div>
+          <div class="step-content">
+            <h3>Launch & Support</h3>
+            <p>We handle deployment, QA, and go-live support — then stay on hand for ongoing maintenance and new features.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Why us -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-text">
+        <div class="badge">Why Orventra</div>
+        <h2>We build software<br />that actually works</h2>
+        <p>Off-the-shelf software forces you to change how you work. We flip the equation — building solutions that adapt to you, your team, and your customers.</p>
+        <ul class="check-list">
+          <li>
+            <div class="check-icon">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="2,8 6,12 14,4"/></svg>
+            </div>
+            Dedicated team that owns your project end-to-end
+          </li>
+          <li>
+            <div class="check-icon">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="2,8 6,12 14,4"/></svg>
+            </div>
+            Clean, maintainable code you'll own forever
+          </li>
+          <li>
+            <div class="check-icon">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="2,8 6,12 14,4"/></svg>
+            </div>
+            Transparent communication and no surprises
+          </li>
+          <li>
+            <div class="check-icon">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="2,8 6,12 14,4"/></svg>
+            </div>
+            Built to scale as your business grows
+          </li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Work with us</a>
+      </div>
+      <div class="about-visual">
+        <div class="visual-card vc-1">
+          <div class="vc-dot vc-green"></div>
+          <span>Build pipeline passing</span>
+        </div>
+        <div class="visual-card vc-2">
+          <div class="vc-dot vc-blue"></div>
+          <span>99.9% uptime SLA</span>
+        </div>
+        <div class="visual-card vc-3">
+          <div class="vc-dot vc-purple"></div>
+          <span>v2.4.1 deployed</span>
+        </div>
+        <div class="visual-window">
+          <div class="vw-bar">
+            <span class="vw-dot"></span><span class="vw-dot"></span><span class="vw-dot"></span>
+          </div>
+          <div class="vw-code">
+            <span class="c-purple">const</span> solution <span class="c-blue">=</span> <span class="c-green">orventra</span><span class="c-white">.</span><span class="c-yellow">build</span><span class="c-white">({</span><br/>
+            &nbsp;&nbsp;client<span class="c-white">:</span> <span class="c-orange">"you"</span><span class="c-white">,</span><br/>
+            &nbsp;&nbsp;quality<span class="c-white">:</span> <span class="c-orange">"exceptional"</span><span class="c-white">,</span><br/>
+            &nbsp;&nbsp;delivery<span class="c-white">:</span> <span class="c-orange">"on time"</span><br/>
+            <span class="c-white">});</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials (hidden until populated) -->
+  <section class="section section-tint" style="display:none">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">Testimonials</div>
+        <h2>Clients who took<br />the leap with us</h2>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>"Orventra completely transformed how we manage our operations. The custom platform they built saved us 20+ hours a week."</p>
+          <div class="testimonial-author">
+            <div class="avatar">SL</div>
+            <div>
+              <strong>Sarah Lawson</strong>
+              <span>COO, Meridian Logistics</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>"From the first call to launch, the team was communicative, professional, and delivered something beyond what we imagined."</p>
+          <div class="testimonial-author">
+            <div class="avatar">JM</div>
+            <div>
+              <strong>James Morel</strong>
+              <span>Founder, PulseHealth</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>"We'd tried three other vendors. Orventra was the first team that actually listened and built exactly what we needed."</p>
+          <div class="testimonial-author">
+            <div class="avatar">RC</div>
+            <div>
+              <strong>Rachel Chen</strong>
+              <span>CTO, Stackline Retail</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / Contact -->
+  <section class="section section-tint cta-section" id="contact">
+    <div class="cta-orb"></div>
+    <div class="container cta-inner">
+      <h2>Ready to build<br /><span class="gradient-text">something great?</span></h2>
+      <p>Tell us about your project and we'll get back to you within 24 hours.</p>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="you@company.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="company">Company</label>
+          <input type="text" id="company" placeholder="Your company" />
+        </div>
+        <div class="form-group">
+          <label for="message">Tell us about your project</label>
+          <textarea id="message" rows="5" placeholder="Describe what you're looking to build..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Send message</button>
+        <p class="form-note" id="form-status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo">Orventra</span>
+        <p>Custom software solutions<br />built for your business.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="mailto:hello@orventra.com">hello@orventra.com</a>
+          <a href="#contact">Start a project</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Orventra. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
